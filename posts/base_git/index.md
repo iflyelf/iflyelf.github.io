@@ -3,7 +3,7 @@
 
 Git基本操作
 
-&lt;!--more--&gt;
+<!--more-->
 
 ## 查看配置
 ### 查看全局配置
@@ -16,17 +16,17 @@ git config --list
 ```
 ### 配置个人的用户名称和电子邮件地址
 ```
-git config --global user.name &#34;iflyelf&#34;
+git config --global user.name "iflyelf"
 git config --global user.email iflyelf@gmail.com
 ```
 
 ## 生成、添加 SSH 公钥
 ### 生成 SSH 公钥
 ```
-ssh-keygen -t ed25519 -C &#39;邮箱&#39; -f ~/.ssh/gitee_id_rsa
+ssh-keygen -t ed25519 -C '邮箱' -f ~/.ssh/gitee_id_rsa
 -t key 类型
 -C 注释
-ssh-keygen -t ed25519 -C &#39;iflyelf@gmail.com&#39; -f ~/.ssh/gitee_id_rsa
+ssh-keygen -t ed25519 -C 'iflyelf@gmail.com' -f ~/.ssh/gitee_id_rsa
 ```
 
 ## 创建Git仓库
@@ -42,7 +42,7 @@ git init
 ### 创建README文件并编辑
 ```
 touch README.md
-echo &#34;学习git&#34; &gt;&gt; README.md
+echo "学习git" >> README.md
 ```
 ### 增加文件到缓存区
 #### 增加所有修改的文件到缓存区(不包括删除的文件到缓存区)
@@ -55,25 +55,25 @@ git add -A
 ```
 ### 将暂存区内容添加到仓库中
 ```
-git commit -am &#34;创建README.md文件&#34;
+git commit -am "创建README.md文件"
 -a 类似 git add . 但不包含新增加的文件
 -m 注释内容
 ```
 ### 增加远程仓库
 ```
-git remote add &lt;remote_name&gt; &lt;remote_url&gt;
+git remote add <remote_name> <remote_url>
 remote_name 远程仓库的名称
 remote_url 远程仓库的 URL
 git remote add origin https://gitee.com/iflyelf/git-me.git
 ```
 ###  将本地仓库的代码上传至远程仓库
 ```
-git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;
-git push -u origin &#34;master&#34;
+git push <远程主机名> <本地分支名>:<远程分支名>
+git push -u origin "master"
 ```
 ### 从远程获取代码并合并本地的版本
 ```
-git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;
+git pull <远程主机名> <远程分支名>:<本地分支名>
 git pull origin master
 ```
 
@@ -143,8 +143,8 @@ git push origin --delete test
 ## Git 标签
 ### 创建标签(git commit之后操作)
 ```
-git tag -a 版本号 -m &#34;版本描述&#34;
-git tag -a v1.0 -m &#34;v1.0&#34;
+git tag -a 版本号 -m "版本描述"
+git tag -a v1.0 -m "v1.0"
 ```
 ### 查看标签
 ```
@@ -201,7 +201,7 @@ git restore .
 ```
 ### 还原文件到指定提交的状态
 ```
-git restore --source=&lt;commit&gt; &lt;file&gt;
+git restore --source=<commit> <file>
 ```
 
 ## 回退版本
@@ -226,6 +226,6 @@ git reset --hard origin/master
 
 ---
 
-> 作者: [小精灵](https://www.iflyelf.com)  
+> 作者: [小诺](https://www.iflyelf.com)  
 > URL: https://www.iflyelf.com/posts/base_git/  
 
