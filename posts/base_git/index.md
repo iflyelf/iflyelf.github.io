@@ -1,32 +1,5 @@
-# 
+# Git基本操作
 
-```
-```
-
----
-# 文章标题
-title: "Git基本操作"
-# 这篇文章创建的日期时间
-date: 2024-07-15T08:00:00+08:00
-# 上次修改内容的日期时间
-lastmod: 2024-07-15T08:00:00+08:00
-# 文章内容的描述
-description: "Git基本操作"
-# 文章的特色图片
-featured_image: "https://acg.iflyelf.com/base_git"
-# 文章后缀名
-slug: base_git
-# 文章的标签
-tags: ["git"]
-# 文章所属的类别
-categories: ["爱记录爱整理"]
-# 文章合集
-collections: ["GIT"]
-# 文章中的图片将可以按照画廊形式呈现
-lightgallery: true
-# 目录
-toc: true
----
 Git基本操作
 
 <!--more-->
