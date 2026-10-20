@@ -1,6 +1,6 @@
 # 我最喜欢的歌曲
 
-{{< music server="netease" type="song" id="2708344909" >}}
+{{< music "https://music.163.com/#/playlist?id=2708344909" >}}
 
 
 ---
