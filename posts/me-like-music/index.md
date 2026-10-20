@@ -1,5 +1,7 @@
 # 我最喜欢的歌曲
 
+<script>window.meting_api = "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r";</script>
+
 {{< music "https://music.163.com/#/playlist?id=2708344909" >}}
 
 
