@@ -1,7 +1,7 @@
 # 关于我
 
 
-{{< image src="https://cdn.jsdelivr.net/gh/danxiaonuo/blog_resource@main/images/me/pikaqiu.png" title="皮卡丘">}}
+{{< image src="/images/me/pikaqiu.jpg" alt="皮卡丘" title="皮卡丘">}}
 <br>
 
 你好，朋友！:wave: 很高兴你来到这里。无论你是偶然路过还是特意寻来，能在浩瀚的网络世界中相遇，这本身就是一种美好的缘分。欢迎你在我的小天地里驻足，希望这里的文字能给你带来一些启发和温暖。:sparkling_heart:
